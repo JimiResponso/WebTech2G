@@ -1,33 +1,91 @@
-body {background-color:#110017;}
 
-h3 {
-  color: #c83deb;}
-
-p {
-  font-family: verdana;
-  font-size: 20px;
-  color:#c83deb;
+body{
+	background-color: #22002b
+	}
+li{
+	color:lightblue;
+	text-decoration:none;
 }
-h4 {color:#c83deb;}
-
-ul a {color:#c83deb;
- list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 60px;}
-li a {
-  display: block;
-  width: 60px;
-	color:violet;
-	display: inline;
+/* Header */
+.container{
+	margin:auto;
+	width:80%;
+	overflow:hidden;
 }
-li a:hover {
-	padding: 8px 16px;
-  text-decoration:blue;
-  background-color: #555;
-  color: blue;
+header{
+	background-color:black;
+	padding-top:30px;
 }
+header a{
+	color:white;
+	list-style-type: none;
+	float:right;
+	display:inline;
+}
+header ul{
+	list-style-type: none;
+}
+header li a{
+	display: block;
+    color:#c300d9;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color:#32004d;
+}
+li a:hover{
+	background-color:#22002b;
+}
+header .name2{
+	color:#c300d9;
+	margin-bottom:40px;
+	border:double;
+}
+	/* Body */
+section{
 
-ul b {color:violet;}
-li b {color:violet;}
-
+	margin:auto;
+	overflow:hidden;
+}
+div #motto{
+	color:#c300d9;
+}
+div p{
+	color:lightblue;
+}
+section #am{
+	color:#c300d9;
+}
+section h4{
+	color:#c300d9;
+}
+div{
+		  background-image: url("owo.jpg");
+  background-repeat: no-repeat;
+  margin-bottom:20px;
+}
+body .about{
+	color:#c300d9;
+}
+body .contacts{
+	color:#c300d9;
+}
+body b{
+	color:white;
+	list-style-type: none;
+	float:left;
+	display:inline;
+}
+body ul{
+		display: block;
+    color:#c300d9;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color:black;
+	color:blue;
+}
+li b:hover{
+	background-color:blue;
+}
+footer{
+	background-color:green;
+	}
